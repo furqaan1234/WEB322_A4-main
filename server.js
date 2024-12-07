@@ -9,7 +9,7 @@ Name: Furqaan Adnan
 Student ID: 147704225
 Date: 6 December,2024
 Glitch Web App URL:
-GitHub Repository URL: 
+GitHub Repository URL: https://github.com/furqaan1234/WEB322_A4-main/tree/main
 
 ********************************************************************************/ 
 
@@ -25,12 +25,12 @@ const Handlebars = require('handlebars');  // Imports Handlebars directly from t
 const PORT = process.env.PORT || 8080; // Sets the port to 8080
 const upload = multer(); // Sets the upload variable to the multer module
 const app = express();// Sets the app variable to the express module
-cloudinary.config({ // Configures the cloudinary module with the cloud_name, api_key, api_secret, and secure properties
+cloudinary.config({
     cloud_name: 'dxsl8la2d',
     api_key: '987492325492392',
     api_secret: '7Y0ppEmQ74hOALHtaEbQnLsGMu8',
     secure: true
-});
+  });
 
 
 app.use(express.static('public'));
