@@ -41,11 +41,11 @@ app.set('view engine', '.hbs');
 
 // Set up Cloudinary configuration
 cloudinary.config({
-  cloud_name: 'diytti8dx',
-  api_key: '837181373364637',
-  api_secret: 'Qe6JKyU3I95QUDKSS6_rxINiAyc',
-  secure: true
-});
+    cloud_name: 'dxsl8la2d',
+    api_key: '987492325492392',
+    api_secret: '7Y0ppEmQ74hOALHtaEbQnLsGMu8',
+    secure: true
+  });
 
 const upload = multer(); // Initialize multer without disk storage
 
