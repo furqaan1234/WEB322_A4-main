@@ -1,0 +1,40 @@
+<h2>Add New Item</h2>
+<form action="/items/add" method="POST" enctype="multipart/form-data">
+  <div class="mb-3">
+    <label for="title" class="form-label">Title:</label>
+    <input type="text" class="form-control" id="title" name="title" required />
+  </div>
+
+  <div class="mb-3">
+    <label for="price" class="form-label">Price:</label>
+    <input type="number" class="form-control" id="price" name="price" step="0.01" required />
+  </div>
+
+  <div class="mb-3">
+    <label for="category" class="form-label">Category:</label>
+    <select class="form-control" id="category" name="category" required>
+      <option value="1">Home, Garden</option>
+      <option value="2">Electronics, Computers, Video Games</option>
+      <option value="3">Clothing</option>
+      <option value="4">Sports & Outdoors</option>
+      <option value="5">Pets</option>
+    </select>
+  </div>
+
+  <div class="mb-3">
+    <label for="featureImage" class="form-label">Feature Image:</label>
+    <input type="file" class="form-control" id="featureImage" name="featureImage" />
+  </div>
+
+  <div class="mb-3">
+    <label for="body" class="form-label">Description:</label>
+    <textarea class="form-control" id="body" name="body" rows="4" required></textarea>
+  </div>
+
+  <div class="form-check mb-3">
+    <input type="checkbox" class="form-check-input" id="published" name="published" />
+    <label class="form-check-label" for="published">Published</label>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Add Item</button>
+</form>
