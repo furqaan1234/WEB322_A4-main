@@ -1,13 +1,13 @@
 {
   "name": "package",
   "version": "1.0.0",
-  "description": "web322 lab 2",
+  "description": "web322",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Steven Ly",
+  "author": "Furqaan Adnan",
   "license": "ISC",
   "dependencies": {
     "cloudinary": "^2.5.1",

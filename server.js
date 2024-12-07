@@ -1,13 +1,15 @@
 /*********************************************************************************
 
 WEB322 – Assignment 05
-I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  No part *  of this assignment has been copied manually or electronically from any other source (including 3rd party web sites) or distributed to other students.
+I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  
+No part of this assignment has been copied manually or electronically from any other source 
+(including 3rd party web sites) or distributed to other students.
 
-Name: Steven Ly
-Student ID: 101444214
-Date: november 19,2024
-Glitch Web App URL: https://stevenlyweb322-assignment4.glitch.me/
-GitHub Repository URL: https://github.com/lysteven/web322-app
+Name: Furqaan Adnan
+Student ID: 147704225
+Date: 6 December,2024
+Glitch Web App URL:
+GitHub Repository URL: 
 
 ********************************************************************************/ 
 
@@ -24,9 +26,9 @@ const PORT = process.env.PORT || 8080; // Sets the port to 8080
 const upload = multer(); // Sets the upload variable to the multer module
 const app = express();// Sets the app variable to the express module
 cloudinary.config({ // Configures the cloudinary module with the cloud_name, api_key, api_secret, and secure properties
-    cloud_name: 'djjdy3gyf',
-    api_key: '915157472213428',
-    api_secret: 'A0kol7FdiyFNSz9btX_m4gp9VIQ',
+    cloud_name: 'dxsl8la2d',
+    api_key: '987492325492392',
+    api_secret: '7Y0ppEmQ74hOALHtaEbQnLsGMu8',
     secure: true
 });
 
