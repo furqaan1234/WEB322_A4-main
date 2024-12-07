@@ -1,21 +1,11 @@
-<div class="row">
-    <div class="col-md-12">
-        <h2>Add Category</h2>
-        <br />
-        <form method="post" action="/categories/add">
-            <fieldset>
-                <legend>Shop Content</legend>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label for="category">Category:</label>
-                            <input class="form-control" id="category" name="category" type="text" autofocus />
-                        </div>
-                    </div>
-                </div>
-            </fieldset>
-            <hr />
-            <input type="submit" class="btn btn-primary pull-right" value="Add Category" /><br /><br /><br />
-        </form>
-    </div>
-</div>
+<h2>Add Category</h2>
+
+<form action="/categories/add" method="POST">
+  <div class="mb-3">
+    <label for="category">Category Name</label>
+    <input type="text" name="category" id="category" class="form-control" required autofocus>
+  </div>
+  <div class="mb-3">
+    <button type="submit" class="btn btn-success">Add Category</button>
+  </div>
+</form>
